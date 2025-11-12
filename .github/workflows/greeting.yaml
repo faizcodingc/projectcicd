@@ -10,3 +10,5 @@ jobs:
                echo "Today's date is: $(date)"
                echo "Current user is: $(whoami)"
                echo "Current working directory: $(pwd)"
+               echo "Listing files in the current directory:"
+               ls -la
